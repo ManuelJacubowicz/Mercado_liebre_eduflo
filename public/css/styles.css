@@ -406,10 +406,13 @@
       max-width: 150px;
     }
   
+    
+  
     header div.form {
       display: flex;
       align-content: center;
-      width: 30%;
+      width: 20%;
+      margin-right: 2vw;
       
       
     }
@@ -420,9 +423,11 @@
       width:fit-content;
       color: #666;
       margin-top: 3vw;
-      font-size: 13px;
-      border: solid 1px black;
+      font-size: 1.5vw;
+      width: 20vw;
+      height: 4vw;
       padding: 0.3vw;
+      border: solid 1px black;
       
       
     }
@@ -430,16 +435,18 @@
     header .form .submit {
       border-radius: 5px ;
       border:none;
-      border: solid 1px black;
       color: #666;
-      width: 5vw;
-      margin-top: 3vw;    
+      width: 3vw;
+      height: 4vw;
+      border: solid 1px black;
+      margin-top: 3vw;
+      margin-left: 0px;    
       font-size: 2vw;
       background-color: #eee;
       
     }
     header .form .submit i{
-      margin-top: 25%;
+      
     }
 
   
@@ -538,10 +545,10 @@
     }
   
     header div.logo {
-      width: 30%;
+      width: 20%;
     }
     header div.logo img{
-      width:60%;
+      width:20vw;
       padding: 10px;
       margin-top: 20px;
     }
@@ -550,6 +557,7 @@
       display: flex;
       align-content: center;
       width: 20%;
+      margin-right: 2vw;
       
       
     }
@@ -560,7 +568,9 @@
       width:fit-content;
       color: #666;
       margin-top: 3vw;
-      font-size: 13px;
+      font-size: 9px;
+      width: 20vw;
+      height: 2vw;
       padding: 0.3vw;
       border: solid 1px black;
       
@@ -571,10 +581,12 @@
       border-radius: 5px ;
       border:none;
       color: #666;
-      width: 5vw;
+      width: 2vw;
+      height: 2vw;
       border: solid 1px black;
-      margin-top: 3vw;    
-      font-size: 2vw;
+      margin-top: 3vw;
+      margin-left: 0px;    
+      font-size: 1vw;
       background-color: #eee;
       
     }
